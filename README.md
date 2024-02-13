@@ -1,3 +1,3 @@
-# landingpage_panto
+# landingpage panto
 
 # web developer alex rozhkov

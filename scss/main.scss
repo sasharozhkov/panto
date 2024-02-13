@@ -1,3 +1,15 @@
-@import"./base/reset";
-@import"./base/vars";
-@import"./base/base";
+@import "./../fonts/Gilroy/stylesheet.css";
+
+// base
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+
+//bloks
+@import "./bloks/header";
+@import "./bloks/nav";
+@import "./bloks/nav-list";
+@import "./bloks/cart";
+@import "./bloks/search-form";
+@import "./bloks/info-dot";
+@import "./bloks/info-hint";

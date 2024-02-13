@@ -4,9 +4,148 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Panto</title>
+        <link rel="stylesheet" href="./css/main.min.css" />
     </head>
 
     <body>
-        <h1>HELLO WORLD!!!!!</h1>
+        <header class="header">
+            <div class="container">
+                <!-- navigation -->
+                <nav class="header__nav nav">
+                    <a href="#!" class="nav__logo">Panto</a>
+
+                    <ul class="nav-list">
+                        <li class="nav-list__item">
+                            <a href="#!" class="nav-list__link">Мебель</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#!" class="nav-list__link">Магазин</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#!" class="nav-list__link">О Нас</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#!" class="nav-list__link">Контакты</a>
+                        </li>
+                    </ul>
+
+                    <a href="#!" class="cart">
+                        <img class="cart__img" src="./img/icons/cart.svg" alt="" />
+                        <div class="cart__count">0</div>
+                    </a>
+                </nav>
+
+                <!-- text -->
+                <div class="header__content">
+                    <h1 class="header__title">
+                        Сделайте интерьер<br />
+                        более современным
+                    </h1>
+                    <p>Превратите свою комнату с помощью Panto в более минималистскую и современную с легкостью и скоростью.</p>
+
+                    <form action="" class="header__search search-form">
+                        <input placeholder="Искать мебель" type="text" class="search-form__input" autocomplete="off" />
+                        <button class="search-form__btn">
+                            <img src="./img/icons/search.svg" alt="Search" />
+                        </button>
+                    </form>
+                </div>
+
+                <!-- dot -->
+                <div class="header__dot-sofa">
+                    <button class="info-dot">
+                        <div class="info-dot__circle"></div>
+                        <div class="info-dot__radius"></div>
+                    </button>
+                    <div class="info-hint none">
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--orange"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--biruza"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--gray"></div>
+                        </label>
+                    </div>
+                </div>
+                <!-- dot -->
+                <div class="header__dot-vase">
+                    <button class="info-dot">
+                        <div class="info-dot__circle"></div>
+                        <div class="info-dot__radius"></div>
+                    </button>
+                    <div class="info-hint none">
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--orange"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--biruza"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--gray"></div>
+                        </label>
+                    </div>
+                </div>
+                <!-- dot -->
+                <div class="header__dot-item">
+                    <button class="info-dot">
+                        <div class="info-dot__circle"></div>
+                        <div class="info-dot__radius"></div>
+                    </button>
+                    <div class="info-hint none">
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--orange"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--biruza"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--gray"></div>
+                        </label>
+                    </div>
+                </div>
+                <!-- dot -->
+                <div class="header__dot-wall">
+                    <button class="info-dot">
+                        <div class="info-dot__circle"></div>
+                        <div class="info-dot__radius"></div>
+                    </button>
+                    <div class="info-hint none">
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--orange"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--biruza"></div>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="sofa-color" class="info-hint__radio" />
+                            <div class="info-hint__radio-fake info-hint__radio-fake--gray"></div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <script src="./js/main.js"></script>
     </body>
 </html>
